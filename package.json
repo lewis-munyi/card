@@ -1,0 +1,43 @@
+{
+  "name": "@lewismunyi/card",
+  "version": "1.0.0",
+  "description": "A personal card for Lewis Munyi",
+  "main": "/bin/card.js",
+  "bin": {
+    "lewis": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lewis-munyi/card.git"
+  },
+  "homepage": "https://github.com/lewis-munyi/card#readme",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Lewis Munyi <lewismunyi97@gmail.com> (http://lewis-munyi.github.io)",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/lewis-munyi/card/issues"
+  },
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0"
+  }
+}
