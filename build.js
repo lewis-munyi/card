@@ -16,7 +16,7 @@ const data = {
   github: chalk.cyanBright(`.GitHub(`) + chalk.yellowBright(`'https://github.com/lewis-munyi'`) + chalk.cyanBright(')'),
   linkedin: chalk.cyanBright(`.LinkedIn(`) + chalk.yellowBright(`'https://linkedin.com/in/lewismunyi'`) + chalk.cyanBright(')'),
   web: chalk.cyanBright(`.Website(`) + chalk.yellowBright(`'https://lewis-munyi.github.io'`) + chalk.cyanBright(')'),
-  card: chalk.cyanBright(`.Card(`) + chalk.yellowBright(`'$ npx ...'`) + chalk.cyanBright(')'),
+  card: chalk.cyanBright(`.Card(`) + chalk.yellowBright(`'$ npx @lewismunyi/card'`) + chalk.cyanBright(')'),
 }
 
 // Actual strings we're going to output
